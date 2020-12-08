@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Black and White</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+</head>
+
+<body>
+    <div class="main">
+        <!-- header -->
+        <header>
+            <div class="head-bg">
+                <div class="container">
+                    <ul class="nav">
+                        <li><a href="#"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="basketball-ball" class="svg-inline--fa fa-basketball-ball fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                    <path fill="currentColor" d="M212.3 10.3c-43.8 6.3-86.2 24.1-122.2 53.8l77.4 77.4c27.8-35.8 43.3-81.2 44.8-131.2zM248 222L405.9 64.1c-42.4-35-93.6-53.5-145.5-56.1-1.2 63.9-21.5 122.3-58.7 167.7L248 222zM56.1 98.1c-29.7 36-47.5 78.4-53.8 122.2 50-1.5 95.5-17 131.2-44.8L56.1 98.1zm272.2 204.2c45.3-37.1 103.7-57.4 167.7-58.7-2.6-51.9-21.1-103.1-56.1-145.5L282 256l46.3 46.3zM248 290L90.1 447.9c42.4 34.9 93.6 53.5 145.5 56.1 1.3-64 21.6-122.4 58.7-167.7L248 290zm191.9 123.9c29.7-36 47.5-78.4 53.8-122.2-50.1 1.6-95.5 17.1-131.2 44.8l77.4 77.4zM167.7 209.7C122.3 246.9 63.9 267.3 0 268.4c2.6 51.9 21.1 103.1 56.1 145.5L214 256l-46.3-46.3zm116 292c43.8-6.3 86.2-24.1 122.2-53.8l-77.4-77.4c-27.7 35.7-43.2 81.2-44.8 131.2z"></path>
+                                </svg></a></li>
+                        <li><a href="#">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                </svg>
+                            </a></li>
+                        <li><a href="#">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="behance-square" class="svg-inline--fa fa-behance-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor" d="M186.5 293c0 19.3-14 25.4-31.2 25.4h-45.1v-52.9h46c18.6.1 30.3 7.8 30.3 27.5zm-7.7-82.3c0-17.7-13.7-21.9-28.9-21.9h-39.6v44.8H153c15.1 0 25.8-6.6 25.8-22.9zm132.3 23.2c-18.3 0-30.5 11.4-31.7 29.7h62.2c-1.7-18.5-11.3-29.7-30.5-29.7zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zM271.7 185h77.8v-18.9h-77.8V185zm-43 110.3c0-24.1-11.4-44.9-35-51.6 17.2-8.2 26.2-17.7 26.2-37 0-38.2-28.5-47.5-61.4-47.5H68v192h93.1c34.9-.2 67.6-16.9 67.6-55.9zM380 280.5c0-41.1-24.1-75.4-67.6-75.4-42.4 0-71.1 31.8-71.1 73.6 0 43.3 27.3 73 71.1 73 33.2 0 54.7-14.9 65.1-46.8h-33.7c-3.7 11.9-18.6 18.1-30.2 18.1-22.4 0-34.1-13.1-34.1-35.3h100.2c.1-2.3.3-4.8.3-7.2z"></path>
+                                </svg>
+                            </a></li>
+                        <li>
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vimeo" class="svg-inline--fa fa-vimeo fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor" d="M403.2 32H44.8C20.1 32 0 52.1 0 76.8v358.4C0 459.9 20.1 480 44.8 480h358.4c24.7 0 44.8-20.1 44.8-44.8V76.8c0-24.7-20.1-44.8-44.8-44.8zM377 180.8c-1.4 31.5-23.4 74.7-66 129.4-44 57.2-81.3 85.8-111.7 85.8-18.9 0-34.8-17.4-47.9-52.3-25.5-93.3-36.4-148-57.4-148-2.4 0-10.9 5.1-25.4 15.2l-15.2-19.6c37.3-32.8 72.9-69.2 95.2-71.2 25.2-2.4 40.7 14.8 46.5 51.7 20.7 131.2 29.9 151 67.6 91.6 13.5-21.4 20.8-37.7 21.8-48.9 3.5-33.2-25.9-30.9-45.8-22.4 15.9-52.1 46.3-77.4 91.2-76 33.3.9 49 22.5 47.1 64.7z"></path>
+                            </svg>
+                            </a></li>
+                        <li><a href="#">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="simplybuilt" class="svg-inline--fa fa-simplybuilt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor" d="M481.2 64h-106c-14.5 0-26.6 11.8-26.6 26.3v39.6H163.3V90.3c0-14.5-12-26.3-26.6-26.3h-106C16.1 64 4.3 75.8 4.3 90.3v331.4c0 14.5 11.8 26.3 26.6 26.3h450.4c14.8 0 26.6-11.8 26.6-26.3V90.3c-.2-14.5-12-26.3-26.7-26.3zM149.8 355.8c-36.6 0-66.4-29.7-66.4-66.4 0-36.9 29.7-66.6 66.4-66.6 36.9 0 66.6 29.7 66.6 66.6 0 36.7-29.7 66.4-66.6 66.4zm212.4 0c-36.9 0-66.6-29.7-66.6-66.6 0-36.6 29.7-66.4 66.6-66.4 36.6 0 66.4 29.7 66.4 66.4 0 36.9-29.8 66.6-66.4 66.6z"></path>
+                                </svg>
+                            </a></li>
+                    </ul>
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logo.png" alt="logotype"></a>
+                    </div>
+                    <div class="btn">
+                        <div class="row"></div>
+                        <div class="row"></div>
+                        <div class="row"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </header>
+        <!-- galery block -->
+        <div class="galery-container">
+            <div class="container">
+                <div class="img-container">
+                    <img src="img/img_car.jpg" alt="" class="gallery-img">
+                    <div class="date-wraper">
+                        <div class="text-wraper">
+                            <h2 class="date-head">Awesome day</h2>
+                            <p class="date-desc">View from above</p>
+                        </div>
+                        <div class="month-desc">
+                            <p class="month"></p>
+                            <p class="day"></p>
+                        </div>
+                    </div>
+                    <div class="tool-bar">
+                        <div class="like-container"><img src="img/like.png" alt="like icon"><span class="like"></span></div>
+                        <div class="comment-container"><img src="img/coment.png" alt="coment icon"><span class="coment"></span></div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="img/img_sky.jpg" alt="" class="gallery-img">
+                    <div class="date-wraper">
+                        <div class="text-wraper">
+                            <h2 class="date-head">Awesome day</h2>
+                            <p class="date-desc">View from above</p>
+                        </div>
+                        <div class="month-desc">
+                            <p class="month"></p>
+                            <p class="day"></p>
+                        </div>
+                    </div>
+                    <div class="tool-bar">
+                        <div class="like-container"><img src="img/like.png" alt="like icon"><span class="like"></span></div>
+                        <div class="comment-container"><img src="img/coment.png" alt="coment icon"><span class="coment"></span></div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="img/img_sea.jpg" alt="" class="gallery-img">
+                    <div class="date-wraper">
+                        <div class="text-wraper">
+                            <h2 class="date-head">Awesome day</h2>
+                            <p class="date-desc">View from above</p>
+                        </div>
+                        <div class="month-desc">
+                            <p class="month"></p>
+                            <p class="day"></p>
+                        </div>
+                    </div>
+                    <div class="tool-bar">
+                        <div class="like-container">
+                            <img src="img/like.png" alt="like icon">
+                            <span class="like"></span>
+                        </div>
+                        <div class="comment-container">
+                            <img src="img/coment.png" alt="coment icon">
+                            <span class="coment"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="img/img_clock.jpg" alt="" class="gallery-img">
+                    <div class="date-wraper">
+                        <div class="text-wraper">
+                            <h2 class="date-head">Awesome day</h2>
+                            <p class="date-desc">View from above</p>
+                        </div>
+                        <div class="month-desc">
+                            <p class="month"></p>
+                            <p class="day"></p>
+                        </div>
+                    </div>
+                    <div class="tool-bar">
+                        <div class="like-container"><img src="img/like.png" alt="like icon"><span class="like"></span></div>
+                        <div class="comment-container"><img src="img/coment.png" alt="coment icon"><span class="coment"></span></div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="img/img_mountain.jpg" alt="" class="gallery-img">
+                    <div class="date-wraper">
+                        <div class="text-wraper">
+                            <h2 class="date-head">Awesome day</h2>
+                            <p class="date-desc">View from above</p>
+                        </div>
+                        <div class="month-desc">
+                            <p class="month"></p>
+                            <p class="day"></p>
+                        </div>
+                    </div>
+                    <div class="tool-bar">
+                        <div class="like-container"> <img src="img/like.png" alt="like icon"><span class="like"></span></div>
+                        <div class="comment-container"> <img src="img/coment.png" alt="coment icon"><span class="coment"></span></div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="img/img_stone.jpg" alt="" class="gallery-img">
+                    <div class="date-wraper">
+                        <div class="text-wraper">
+                            <h2 class="date-head">Awesome day</h2>
+                            <p class="date-desc">View from above</p>
+                        </div>
+                        <div class="month-desc">
+                            <p class="month"></p>
+                            <p class="day"></p>
+                        </div>
+                    </div>
+                    <div class="tool-bar">
+                        <div class="like-container"> <img src="img/like.png" alt="like icon"><span class="like"></span></div>
+                        <div class="comment-container"> <img src="img/coment.png" alt="coment icon"><span class="coment"></span></div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="img/height.jpg" alt="" class="gallery-img">
+                    <div class="date-wraper">
+                        <div class="text-wraper">
+                            <h2 class="date-head">Awesome day</h2>
+                            <p class="date-desc">View from above</p>
+                        </div>
+                        <div class="month-desc">
+                            <p class="month"></p>
+                            <p class="day"></p>
+                        </div>
+                    </div>
+                    <div class="tool-bar">
+                        <div class="like-container"><img src="img/like.png" alt="like icon"><span class="like"></span></div>
+                        <div class="comment-container"> <img src="img/coment.png" alt="coment icon"><span class="coment"></span></div>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="img/img_road.jpg" alt="" class="gallery-img">
+                    <div class="date-wraper">
+                        <div class="text-wraper">
+                            <h2 class="date-head">Awesome day</h2>
+                            <p class="date-desc">View from above</p>
+                        </div>
+                        <div class="month-desc">
+                            <p class="month"></p>
+                            <p class="day"></p>
+                        </div>
+                    </div>
+                    <div class="tool-bar">
+                        <div class="like-container">
+                            <img src="img/like.png" alt="like icon"><span class="like"></span>
+                        </div>
+                        <div class="comment-container"><img src="img/coment.png" alt="coment icon"><span class="coment"></span></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- about block -->
+        <div class="about-container">
+            <div class="container">
+                <div class="about-bg">
+                    <h2 class="about-head">A Picture Is Worth A Thousand Words</h2>
+                    <p class="about-desc">People peter griffin high school mom bra just avenger le me students friendzoned challenge accepted. True Story face troll finals derpina cereal guy lose back final week yao male. Not bad luke feel like a sir bacon pizza coffee a the avengers puking rainbows nyan cat search.</p>
+                    <a href="" class="about-btn">learn more about us</a>
+                </div>
+            </div>
+        </div>
+        <!-- post block -->
+        <div class="post-container">
+            <div class="container">
+                <div class="clear">
+                    <div class="post-body">
+                        <div class="post-info">
+                            <span class="post-place">A Picture Is Worth A Thousand Words</span>
+                            <span class="post-date">01/17/2014</span>
+                            <span class="post-time">8 minutes read<img src="img/flag.png" alt="flag ico"></span>
+                            
+                        </div>
+                        <h2 class="post-head">A Picture Is Worth A Thousand Words</h2>
+                        <div class="img-wraper">
+                            <img src="img/height.jpg" alt="height">
+                            <p class="img-desc">Flight over the country - 2014</p>
+                        </div>
+                        <div class="desc-wraper">
+                            <p class="post-desc-xs">Dad blizzard coffee unsave facepalm face feel like a sir tank mother aww yeah. Anonymous easter puking rainbows bear wodka simpson amnesia read cookie monster final week grey.</p>
+                            <p class="post-desc-sm">Mom hammer creepy me gusta morbi eat le friend steve jobs cellphone clinton cereal guy. Good guy high school on okay a bacon homework in joke dog. Not Okay if you know what i mean nap monocle oh stop it, you pizza diablo 3 captain on weekend elephant. I Dont Get It drink ba dumm tss amet basic math female phone gentlemen strangers.</p>
+                        </div>
+                        <div class="author-wraper">
+                            <h2 class="author-head">Author</h2>
+                            <p class="author-name">Jonas Duri</p>
+                            <div class="author-container">
+                                <div class="togle-wraper">
+                                    <img src="img/user_photo.png" alt=" author jonas Duri">
+                                    <ul class="togle-list">
+                                        <li><a href="#">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                                </svg>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="basketball-ball" class="svg-inline--fa fa-basketball-ball fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                    <path fill="currentColor" d="M212.3 10.3c-43.8 6.3-86.2 24.1-122.2 53.8l77.4 77.4c27.8-35.8 43.3-81.2 44.8-131.2zM248 222L405.9 64.1c-42.4-35-93.6-53.5-145.5-56.1-1.2 63.9-21.5 122.3-58.7 167.7L248 222zM56.1 98.1c-29.7 36-47.5 78.4-53.8 122.2 50-1.5 95.5-17 131.2-44.8L56.1 98.1zm272.2 204.2c45.3-37.1 103.7-57.4 167.7-58.7-2.6-51.9-21.1-103.1-56.1-145.5L282 256l46.3 46.3zM248 290L90.1 447.9c42.4 34.9 93.6 53.5 145.5 56.1 1.3-64 21.6-122.4 58.7-167.7L248 290zm191.9 123.9c29.7-36 47.5-78.4 53.8-122.2-50.1 1.6-95.5 17.1-131.2 44.8l77.4 77.4zM167.7 209.7C122.3 246.9 63.9 267.3 0 268.4c2.6 51.9 21.1 103.1 56.1 145.5L214 256l-46.3-46.3zm116 292c43.8-6.3 86.2-24.1 122.2-53.8l-77.4-77.4c-27.7 35.7-43.2 81.2-44.8 131.2z"></path>
+                                                </svg>
+                                            </a></li>
+                                        <li><a href="#">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="behance-square" class="svg-inline--fa fa-behance-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path fill="currentColor" d="M186.5 293c0 19.3-14 25.4-31.2 25.4h-45.1v-52.9h46c18.6.1 30.3 7.8 30.3 27.5zm-7.7-82.3c0-17.7-13.7-21.9-28.9-21.9h-39.6v44.8H153c15.1 0 25.8-6.6 25.8-22.9zm132.3 23.2c-18.3 0-30.5 11.4-31.7 29.7h62.2c-1.7-18.5-11.3-29.7-30.5-29.7zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zM271.7 185h77.8v-18.9h-77.8V185zm-43 110.3c0-24.1-11.4-44.9-35-51.6 17.2-8.2 26.2-17.7 26.2-37 0-38.2-28.5-47.5-61.4-47.5H68v192h93.1c34.9-.2 67.6-16.9 67.6-55.9zM380 280.5c0-41.1-24.1-75.4-67.6-75.4-42.4 0-71.1 31.8-71.1 73.6 0 43.3 27.3 73 71.1 73 33.2 0 54.7-14.9 65.1-46.8h-33.7c-3.7 11.9-18.6 18.1-30.2 18.1-22.4 0-34.1-13.1-34.1-35.3h100.2c.1-2.3.3-4.8.3-7.2z"></path>
+                                                </svg>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                                <ul class="author-social">
+                                    <li><a href="#">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link" class="svg-inline--fa fa-link fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor" d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"></path>
+                                            </svg>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                                <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                            </svg>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                            </svg>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google-plus-g" class="svg-inline--fa fa-google-plus-g fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                                <path fill="currentColor" d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"></path>
+                                            </svg>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="post-sidebar">
+                        <h2 class="sidebar-head">category</h2>
+                        <ul class="sidebar-list">
+                            <li>Traveling (9)
+                                <ul class="togle-list">
+                                    <li><a href="#">A Picture is Worth A (..)</a></li>
+                                    <li><a href="#">Trip to New York City was (..)</a></li>
+                                </ul>
+                            </li>
+                            <li>Photos (28)
+                                <ul class="togle-list">
+                                    <li><a href="#">A Picture is Worth A (..)</a></li>
+                                    <li><a href="#">Trip to New York City was (..)</a></li>
+                                </ul>
+                            </li>
+                            <li>Lifestyle (4)
+                                <ul class="togle-list">
+                                    <li><a href="#">A Picture is Worth A (..)</a></li>
+                                    <li><a href="#">Trip to New York City was (..)</a></li>
+                                </ul>
+                            </li>
+                            <li>Inspiration (4)
+                                <ul class="togle-list">
+                                    <li><a href="#">A Picture is Worth A (..)</a></li>
+                                    <li><a href="#">Trip to New York City was (..)</a></li>
+                                </ul>
+                            </li>
+                            <li>Fashion (28)
+                                <ul class="togle-list">
+                                    <li><a href="#">A Picture is Worth A (..)</a></li>
+                                    <li><a href="#">Trip to New York City was (..)</a></li>
+                                </ul>
+                            </li>
+                            <li>Business (9)
+                                <ul class="togle-list">
+                                    <li><a href="#">A Picture is Worth A (..)</a></li>
+                                    <li><a href="#">Trip to New York City was (..)</a></li>
+                                </ul>
+                            </li>
+                            <li>Technology (16)
+                                <ul class="togle-list">
+                                    <li><a href="#">A Picture is Worth A (..)</a></li>
+                                    <li><a href="#">Trip to New York City was (..)</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clear">
+                    <div class="post-body">
+                        <div class="post-info">
+                            <span class="post-place">My First Trip to NYC</span>
+                            <span class="post-date">01/15/2014</span>
+                            <span class="post-time">14 minutes read<img src="img/flag.png" alt="flag ico"></span>
+                            
+                        </div>
+                        <h2 class="post-head">Trip To New York Was Awesome</h2>
+                        <div class="img-wraper">
+                            <img src="img/city_image.jpg" alt="new york city">
+                            <p class="img-desc">Manhatten Skyline- 2014</p>
+                        </div>
+                        <div class="desc-wraper">
+                            <p class="post-desc-xs">Dad blizzard coffee unsave facepalm face feel like a sir tank mother aww yeah. Anonymous easter puking rainbows bear wodka simpson amnesia read cookie monster final week grey.</p>
+                            <p class="post-desc-sm">Mom hammer creepy me gusta morbi eat le friend steve jobs cellphone clinton cereal guy. Good guy high school on okay a bacon homework in joke dog. Not Okay if you know what i mean nap monocle oh stop it, you pizza diablo 3 captain on weekend elephant. I Dont Get It drink ba dumm tss amet basic math female phone gentlemen strangers.</p>
+                        </div>
+                        <div class="author-wraper">
+                            <h2 class="author-head">Authori</h2>
+                            <p class="author-name">Jonas Duri</p>
+                            <div class="author-container">
+                                <div class="togle-wraper">
+                                    <img src="img/user_photo.png" alt="Author Jonas Duri">
+                                    <ul class="togle-list">
+                                        <li><a href="#">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                                </svg>
+                                            </a></li>
+                                        <li><a href="#"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="basketball-ball" class="svg-inline--fa fa-basketball-ball fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                    <path fill="currentColor" d="M212.3 10.3c-43.8 6.3-86.2 24.1-122.2 53.8l77.4 77.4c27.8-35.8 43.3-81.2 44.8-131.2zM248 222L405.9 64.1c-42.4-35-93.6-53.5-145.5-56.1-1.2 63.9-21.5 122.3-58.7 167.7L248 222zM56.1 98.1c-29.7 36-47.5 78.4-53.8 122.2 50-1.5 95.5-17 131.2-44.8L56.1 98.1zm272.2 204.2c45.3-37.1 103.7-57.4 167.7-58.7-2.6-51.9-21.1-103.1-56.1-145.5L282 256l46.3 46.3zM248 290L90.1 447.9c42.4 34.9 93.6 53.5 145.5 56.1 1.3-64 21.6-122.4 58.7-167.7L248 290zm191.9 123.9c29.7-36 47.5-78.4 53.8-122.2-50.1 1.6-95.5 17.1-131.2 44.8l77.4 77.4zM167.7 209.7C122.3 246.9 63.9 267.3 0 268.4c2.6 51.9 21.1 103.1 56.1 145.5L214 256l-46.3-46.3zm116 292c43.8-6.3 86.2-24.1 122.2-53.8l-77.4-77.4c-27.7 35.7-43.2 81.2-44.8 131.2z"></path>
+                                                </svg></a></li>
+                                        <li><a href="#">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="behance-square" class="svg-inline--fa fa-behance-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                    <path fill="currentColor" d="M186.5 293c0 19.3-14 25.4-31.2 25.4h-45.1v-52.9h46c18.6.1 30.3 7.8 30.3 27.5zm-7.7-82.3c0-17.7-13.7-21.9-28.9-21.9h-39.6v44.8H153c15.1 0 25.8-6.6 25.8-22.9zm132.3 23.2c-18.3 0-30.5 11.4-31.7 29.7h62.2c-1.7-18.5-11.3-29.7-30.5-29.7zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zM271.7 185h77.8v-18.9h-77.8V185zm-43 110.3c0-24.1-11.4-44.9-35-51.6 17.2-8.2 26.2-17.7 26.2-37 0-38.2-28.5-47.5-61.4-47.5H68v192h93.1c34.9-.2 67.6-16.9 67.6-55.9zM380 280.5c0-41.1-24.1-75.4-67.6-75.4-42.4 0-71.1 31.8-71.1 73.6 0 43.3 27.3 73 71.1 73 33.2 0 54.7-14.9 65.1-46.8h-33.7c-3.7 11.9-18.6 18.1-30.2 18.1-22.4 0-34.1-13.1-34.1-35.3h100.2c.1-2.3.3-4.8.3-7.2z"></path>
+                                                </svg>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                                <ul class="author-social">
+                                    <li><a href="#">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link" class="svg-inline--fa fa-link fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor" d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"></path>
+                                            </svg>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                                <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                            </svg>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                            </svg>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google-plus-g" class="svg-inline--fa fa-google-plus-g fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                                <path fill="currentColor" d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"></path>
+                                            </svg>
+                                        </a></li>
+                                </ul>
+                            </div>
+                      
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="post-sidebar">
+                    <h2 class="sidebar-head">archive</h2>
+                    <ul class="sidebar-list">
+                        <li>2014 (4)
+                            <ul class="togle-list">
+                                <li><a href="#">A Picture is Worth A (..)</a></li>
+                                <li><a href="#">Trip to New York City was (..)</a></li>
+                            </ul>
+                        </li>
+                        <li>February (28)
+                            <ul class="togle-list">
+                                <li><a href="#">A Picture is Worth A (..)</a></li>
+                                <li><a href="#">Trip to New York City was (..)</a></li>
+                            </ul>
+                        </li>
+                        <li>March (4)
+                            <ul class="togle-list">
+                                <li><a href="#">A Picture is Worth A (..)</a></li>
+                                <li><a href="#">Trip to New York City was (..)</a></li>
+                            </ul>
+                        </li>
+                        <li>April (4)
+                            <ul class="togle-list">
+                                <li><a href="#">A Picture is Worth A (..)</a></li>
+                                <li><a href="#">Trip to New York City was (..)</a></li>
+                            </ul>
+                        </li>
+                        <li>May (28)
+                            <ul class="togle-list">
+                                <li><a href="#">A Picture is Worth A (..)</a></li>
+                                <li><a href="#">Trip to New York City was (..)</a></li>
+                            </ul>
+                        </li>
+                        <li>June (9)
+                            <ul class="togle-list">
+                                <li><a href="#">A Picture is Worth A (..)</a></li>
+                                <li><a href="#">Trip to New York City was (..)</a></li>
+                            </ul>
+                        </li>
+                        <li>July (16)
+                            <ul class="togle-list">
+                                <li><a href="#">A Picture is Worth A (..)</a></li>
+                                <li><a href="#">Trip to New York City was (..)</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact block -->
+    <div class="contact-container">
+        <div class="container">
+            <div class="contact-block">
+                <h2 class="contact-head">Contact Me</h2>
+                <p class="contact-desc">Mom hammer creepy me gusta morbi eat le friend steve jobs cellphone clinton cereal guy. </p>
+                <form action="form.php" method="POST">
+                    <input type="text" placeholder="Your name" class="contact-input" id="name">
+                    <p class="contact-msg"></p>
+                    <input type="text" placeholder="Your email" class="contact-input" id="email">
+                    <p class="contact-msg"></p>
+                    <textarea name="" id="" cols="30" rows="10" class="contact-textarea" id="message" placeholder="Your mesaage"></textarea>
+                    <input type="submit" id="contact-btn" value="Send E-mail">
+                    <div class="clear"></div>
+                </form>
+            </div>
+            <div class="subscribe-block">
+                <div class="posts-container">
+                    <div class="post-block">
+                        <h2 class="r-post-head">Random Post</h2>
+                        <img src="img/sings.jpg" alt="post image">
+                        <p class="r-post-desc">Some advise on Photography</p>
+                    </div>
+                    <div class="post-block">
+                        <h2 class="r-post-head">Random Post</h2>
+                        <img src="img/newyork.jpg" alt="post image">
+                        <p class="r-post-desc">Some advise on Photography</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="subscribe-container">
+                    <div class="logo">
+                        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+                    </div>
+                    <h2 class="subsc-head">NewsLetter</h2>
+                    <form action="" class="form-container">
+                        <input type="text" placeholder="Your E-mail adres here" id="subsc-email" class="subsc-email">
+                        <input type="submit" value="subscribe" id="subsc-btn" class="subsc-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer-bg">
+            <div class="container">
+                <ul class="nav">
+                    <li><a href="#">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="basketball-ball" class="svg-inline--fa fa-basketball-ball fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                <path fill="currentColor" d="M212.3 10.3c-43.8 6.3-86.2 24.1-122.2 53.8l77.4 77.4c27.8-35.8 43.3-81.2 44.8-131.2zM248 222L405.9 64.1c-42.4-35-93.6-53.5-145.5-56.1-1.2 63.9-21.5 122.3-58.7 167.7L248 222zM56.1 98.1c-29.7 36-47.5 78.4-53.8 122.2 50-1.5 95.5-17 131.2-44.8L56.1 98.1zm272.2 204.2c45.3-37.1 103.7-57.4 167.7-58.7-2.6-51.9-21.1-103.1-56.1-145.5L282 256l46.3 46.3zM248 290L90.1 447.9c42.4 34.9 93.6 53.5 145.5 56.1 1.3-64 21.6-122.4 58.7-167.7L248 290zm191.9 123.9c29.7-36 47.5-78.4 53.8-122.2-50.1 1.6-95.5 17.1-131.2 44.8l77.4 77.4zM167.7 209.7C122.3 246.9 63.9 267.3 0 268.4c2.6 51.9 21.1 103.1 56.1 145.5L214 256l-46.3-46.3zm116 292c43.8-6.3 86.2-24.1 122.2-53.8l-77.4-77.4c-27.7 35.7-43.2 81.2-44.8 131.2z"></path>
+                            </svg></a></li>
+                    <li><a href="#">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                            </svg></a></li>
+                    <li><a href="#"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="behance-square" class="svg-inline--fa fa-behance-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor" d="M186.5 293c0 19.3-14 25.4-31.2 25.4h-45.1v-52.9h46c18.6.1 30.3 7.8 30.3 27.5zm-7.7-82.3c0-17.7-13.7-21.9-28.9-21.9h-39.6v44.8H153c15.1 0 25.8-6.6 25.8-22.9zm132.3 23.2c-18.3 0-30.5 11.4-31.7 29.7h62.2c-1.7-18.5-11.3-29.7-30.5-29.7zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zM271.7 185h77.8v-18.9h-77.8V185zm-43 110.3c0-24.1-11.4-44.9-35-51.6 17.2-8.2 26.2-17.7 26.2-37 0-38.2-28.5-47.5-61.4-47.5H68v192h93.1c34.9-.2 67.6-16.9 67.6-55.9zM380 280.5c0-41.1-24.1-75.4-67.6-75.4-42.4 0-71.1 31.8-71.1 73.6 0 43.3 27.3 73 71.1 73 33.2 0 54.7-14.9 65.1-46.8h-33.7c-3.7 11.9-18.6 18.1-30.2 18.1-22.4 0-34.1-13.1-34.1-35.3h100.2c.1-2.3.3-4.8.3-7.2z"></path>
+                            </svg></a></li>
+                    <li><a href="#">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vimeo" class="svg-inline--fa fa-vimeo fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor" d="M403.2 32H44.8C20.1 32 0 52.1 0 76.8v358.4C0 459.9 20.1 480 44.8 480h358.4c24.7 0 44.8-20.1 44.8-44.8V76.8c0-24.7-20.1-44.8-44.8-44.8zM377 180.8c-1.4 31.5-23.4 74.7-66 129.4-44 57.2-81.3 85.8-111.7 85.8-18.9 0-34.8-17.4-47.9-52.3-25.5-93.3-36.4-148-57.4-148-2.4 0-10.9 5.1-25.4 15.2l-15.2-19.6c37.3-32.8 72.9-69.2 95.2-71.2 25.2-2.4 40.7 14.8 46.5 51.7 20.7 131.2 29.9 151 67.6 91.6 13.5-21.4 20.8-37.7 21.8-48.9 3.5-33.2-25.9-30.9-45.8-22.4 15.9-52.1 46.3-77.4 91.2-76 33.3.9 49 22.5 47.1 64.7z"></path>
+                            </svg>
+                        </a></li>
+                    <li><a href="#"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="simplybuilt" class="svg-inline--fa fa-simplybuilt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor" d="M481.2 64h-106c-14.5 0-26.6 11.8-26.6 26.3v39.6H163.3V90.3c0-14.5-12-26.3-26.6-26.3h-106C16.1 64 4.3 75.8 4.3 90.3v331.4c0 14.5 11.8 26.3 26.6 26.3h450.4c14.8 0 26.6-11.8 26.6-26.3V90.3c-.2-14.5-12-26.3-26.7-26.3zM149.8 355.8c-36.6 0-66.4-29.7-66.4-66.4 0-36.9 29.7-66.6 66.4-66.6 36.9 0 66.6 29.7 66.6 66.6 0 36.7-29.7 66.4-66.6 66.4zm212.4 0c-36.9 0-66.6-29.7-66.6-66.6 0-36.6 29.7-66.4 66.6-66.4 36.6 0 66.4 29.7 66.4 66.4 0 36.9-29.8 66.6-66.4 66.6z"></path>
+                            </svg></a></li>
+                </ul>
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo-white.png" alt="logotype"></a>
+                </div>
+                <div class="btn">
+                    <div class="row"></div>
+                    <div class="row"></div>
+                    <div class="row"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+<script src="js/Date.js"></script>
+</html>

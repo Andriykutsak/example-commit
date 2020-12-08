@@ -1,0 +1,58 @@
+/*comon setings*/
+*{
+	box-sizing: border-box;
+}
+img{
+	height: auto;
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+.center{
+	max-width: 1165px;
+	margin: 0 auto;
+}
+/*header*/
+.head-wraper{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 60px 0;
+	background-color: #fff;
+}
+.logo-wraper{
+	margin-left: 22.57%;
+}
+.responsive-btn{
+	margin-left: 26.45%;
+}
+.menu-wraper .menu li{
+	margin: 0 17px;
+float: left;
+}
+.menu-wraper, .logo-wraper{
+	float: left;
+}
+/*responsive btn*/
+.responsive-btn{
+	float: right;
+	height: 30px;
+	width:30px;
+}
+.responsive-btn .row{
+height: 20%;
+width: 100%;
+margin-bottom: 13.33%;
+background-color: #000;
+}
+.hide{
+	display: none;
+}
+/*content*/
+.content-background{
+	padding: 65px 10px 75px 65px;
+	background-image: url("../img/content_bg.png");
+	background-size: cover;
+}
